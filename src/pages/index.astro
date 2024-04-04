@@ -1,8 +1,8 @@
 ---
 import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navigation.astro";
-
-
+import "../styles/globlal.css";
+const pageTitle = "Pagina de inicio";
 ---
 
 <html lang="es">
@@ -15,7 +15,7 @@ import Navigation from "../components/Navigation.astro";
 	</head>
 	<body>
 		<Navigation />
-		<h1>Mi sitio Astro</h1>
+		<h1>{pageTitle}</h1>
 		<Footer />
 	</body>
 </html>
