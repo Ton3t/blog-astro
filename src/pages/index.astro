@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Greeting from "../components/Greeting";
 const pageTitle = "Página de  inicio";
 import "../styles/globlal.css";
 ---
@@ -13,6 +14,7 @@ import "../styles/globlal.css";
 <body>
 	<BaseLayout pageTitle={pageTitle}>
 		<h2>Mi subtitulo del blog</h2>
+		<Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 	</BaseLayout>
 </body>
 </html>
