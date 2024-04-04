@@ -16,8 +16,13 @@ body {
 }
 
 h1 {
+    color: purple;
     margin: 1rem 0;
     font-size: 2.5rem;
+}
+
+.page-title {
+    font-size: 4rem;
 }
 
 /* estilos de la barra de navegación */
