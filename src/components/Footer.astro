@@ -1,10 +1,10 @@
 ---
-const platForm = "github";
-const userName = "ton3t"
+import Social from "./Social.astro";
 ---
 
 <footer>
-    <p>
-        ¡Más información sobre mis proyectos en <a href={`https://www.${platForm}.com/${userName}`}>{platForm}!</a>
-    </p>
+  <p>Enlace a mis redes sociales.</p>
+
+  <Social platForm="github" userName="ton3t" />
+  <Social platForm="instagram" userName="elton3t" />
 </footer>
